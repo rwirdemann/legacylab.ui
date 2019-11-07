@@ -1,4 +1,4 @@
-# legacylab
+# LegacyLab UI
 
 ## Project setup
 ```
