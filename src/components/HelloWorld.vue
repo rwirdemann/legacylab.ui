@@ -1,6 +1,12 @@
 <template>
-  <div>
-    <h1>{{ msg }}</h1>
+  <div class="panel">    
+    <p class="panel-heading">
+      {{ name }}
+    </p>
+    <div class="panel-block">
+      <p>URL: {{ url }}</p>
+        
+    </div>
   </div>
 </template>
 
@@ -8,7 +14,8 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    name: String,
+    url: String
   }
 }
 </script>

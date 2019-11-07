@@ -1,16 +1,12 @@
 <template>
-  <div id="app">
+  <div id="app">    
     <section class="section">
       <div class="container">
-        <h1 class="title">
-          Hello World
-        </h1>
-        <p class="subtitle">
-          My first website with <strong>Bulma</strong>!
-        </p>
+        <h1 class="title">LegacyLab Projects</h1>
+      <HelloWorld name="CoRE-DS" url="https://devstack.vwgroup.com/bitbucket/scm/ngw/vwg.idhub.core-ds.git" />
+      <HelloWorld name="Docker" url="https://github.com/docker/docker-ce.git" />
       </div>
     </section>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
